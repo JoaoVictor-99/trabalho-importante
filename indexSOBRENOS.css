@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #3c3c3c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  background-color: #b22222;
+  border: 4px solid #ffcc00;
+  max-width: 800px;
+  color: white;
+}
+
+.inicio, .sobre-nos {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.inicio {
+  border-right: 4px solid #ffcc00;
+}
+
+.header {
+  background-color: #ffcc00;
+  color: #b22222;
+  padding: 6px 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.logo-area {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dado {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 28px;
+  color: black;
+  font-weight: 800;
+}
+
+.sobre-nos p {
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: justify;
+  color: white;
+  background-color: #b22222;
+  padding: 10px;
+}

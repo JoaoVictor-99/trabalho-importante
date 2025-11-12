@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ficha de RPG</title>
+  <link rel="stylesheet" href="tela2.ficha.css">
+</head>
+<body>
+ 
+    <header class="top-nav">
+        <div class="logo">
+            <img src="Imagens/img/rpg de uma peste.jpg">
+        </div>
+
+        <nav>
+            <a class="menu-btn" href="indexrpg.html">Início</a>
+            <a class="menu-btn" href="indexDADOS.html">Dados</a>
+            <a class="menu-btn" href="indexFICHAS.html">Fichas</a>
+            <a class="menu-btn" href="indexLIVROSDEREGRAS.html">Livros de regras</a>
+            <a class="menu-btn" href="indexSOBRENOS.html">Sobre nós</a>
+        </nav>
+    </header>
+  
+
+  <main class="ficha-container">
+    <section class="dados-gerais">
+      <h2>Dados do Personagem</h2>
+      <label>Nome: <input type="text" placeholder="Nome"></label>
+      <label>Classe: <input type="text" placeholder="Classe"></label>
+      <label>Nível: <input type="number" value="1"></label>
+      <label>Raça: <input type="text" placeholder="Raça"></label>
+      <label>Alinhamento: <input type="text" placeholder="Neutro Bom"></label>
+    </section>
+
+    <section class="atributos">
+      <h2>Atributos</h2>
+      <div class="grid-atributos">
+        <div><label>Força</label><input type="number" value="10"></div>
+        <div><label>Destreza</label><input type="number" value="14"></div>
+        <div><label>Constituição</label><input type="number" value="12"></div>
+        <div><label>Inteligência</label><input type="number" value="16"></div>
+        <div><label>Sabedoria</label><input type="number" value="11"></div>
+        <div><label>Carisma</label><input type="number" value="13"></div>
+      </div>
+    </section>
+
+    <section class="combate">
+      <h2>Combate</h2>
+      <label>Pontos de Vida (HP): <input type="number" value="25"></label>
+      <label>Classe de Armadura (CA): <input type="number" value="15"></label>
+      <label>Iniciativa: <input type="number" value="2"></label>
+    </section>
+
+    <section class="inventario">
+      <h2>Inventário</h2>
+      <textarea placeholder="Espada curta, Poção de cura, Capa de viagem..."></textarea>
+    </section>
+  </main>
+</body>
+</html>

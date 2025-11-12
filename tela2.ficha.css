@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #d9d9d9, #808080);
+  color: white;
+}
+
+header {
+    background-color: #5d0b0b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+header img {
+    height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #ffce00;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0 8px;
+    color: white;
+    font-weight: bold;
+    border: 5px solid #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   font-size: 22px;
+}
+
+nav a:hover {
+    background-color: #ffd633;
+}
+
+main {
+  padding: 40px;
+}
+
+.conteudo h2 {
+  text-align: center;
+  color: #8b0000;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.fichas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.ficha-img {
+  width: 280px;
+  border: 3px solid #8b0000;
+  border-radius: 8px;
+  background-color: #f0e2c5;
+}
+
+.texto-fichas {
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.texto-fichas h3 {
+  color: #8b0000;
+  margin-bottom: 15px;
+}
+
+.texto-fichas ol {
+  list-style-position: inside;
+  line-height: 1.6;
+}
+
+.texto-fichas li {
+  margin-bottom: 12px;
+}
+
+.ficha-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #2c2c2c;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+h2 {
+  border-bottom: 2px solid #c0392b;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #ffce00;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  background: #1e1e1e;
+  border: 1px solid #555;
+  color: #fff;
+  padding: 6px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.grid-atributos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.grid-atributos div {
+  background: #1e1e1e;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}

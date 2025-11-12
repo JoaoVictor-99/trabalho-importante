@@ -1,0 +1,89 @@
+
+.body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+
+header {
+    background-color: #5d0b0b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+header img {
+    height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #ffce00;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0 8px;
+    color: white;
+    font-weight: bold;
+    border: 5px solid #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   font-size: 22px;
+}
+
+nav a:hover {
+    background-color: #ffd633;
+}
+
+
+
+main {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+
+.books {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.book-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.book-card h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.book-card p {
+  color: #666;
+  font-size: 0.95rem;
+}
